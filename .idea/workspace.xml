@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ba2455c-4f17-427f-9695-6f633b3c433c" name="Changes" comment="class01">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Runners/TestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/Hooks.java" afterDir="false" />
+    <list default="true" id="5ba2455c-4f17-427f-9695-6f633b3c433c" name="Changes" comment="class02 Test Runner">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notes" beforeDir="false" afterPath="$PROJECT_DIR$/notes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Runners/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runners/TestRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/steps/LoginInputSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/LoginInputSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/feature/LoginInput.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/feature/LoginInput.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/feature/LoginInput.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/feature/LoginInput.feature" afterDir="false" />
@@ -106,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1717521501327</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="class02 Test Runner">
+      <created>1717766577806</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1717766577806</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -122,6 +128,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="class01" />
-    <option name="LAST_COMMIT_MESSAGE" value="class01" />
+    <MESSAGE value="class02 Test Runner" />
+    <option name="LAST_COMMIT_MESSAGE" value="class02 Test Runner" />
   </component>
 </project>

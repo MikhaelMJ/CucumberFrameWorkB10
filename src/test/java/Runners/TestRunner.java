@@ -13,11 +13,11 @@ import steps.LoginInputSteps;
         glue = "steps",
         // будет только сканирование и быстро найдутся не реализованные шаги
         //dryRun = true,
-       // dryRun = false   // - начнется выполнение
+        dryRun = false,   // - начнется выполнение
 
         //позволяет легко читать вывод на консоле, удалит все не читаемые символы
         monochrome = true,
-        tags = "@smoke"
+        tags = "@examples"
 
 
 )

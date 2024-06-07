@@ -63,4 +63,11 @@ public class LoginInputSteps extends CommonMethods {
         Assert.assertTrue(dashBoardPage.invalidLoginMessage.isDisplayed());
 
     }
-}
+
+    @When("user enters {string}")
+    public void user_enters(String email) {
+        LoginPage loginPage = new LoginPage();
+
+            sendText(loginPage.usernameBox, email);
+        }
+    }
