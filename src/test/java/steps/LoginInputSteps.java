@@ -61,6 +61,6 @@ public class LoginInputSteps extends CommonMethods {
     public void user_see_invalid_credentials_message_on_login_page() {
         DashBoardPage dashBoardPage = new DashBoardPage();
         Assert.assertTrue(dashBoardPage.invalidLoginMessage.isDisplayed());
-        tearDown();
+
     }
 }
