@@ -85,9 +85,11 @@ public class LoginInputSteps extends CommonMethods {
 
             String errorMessageActual = loginPage.errorMessage.getText();
             Assert.assertEquals("Значения не совпадают", errorMessageValue, errorMessageActual);
-            driver.navigate().back();
             Thread.sleep(2000);
+            driver.navigate().back();
+
         }
+        driver.navigate().back();
     }
 
 

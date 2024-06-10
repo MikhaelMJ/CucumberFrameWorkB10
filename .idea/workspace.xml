@@ -4,29 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ba2455c-4f17-427f-9695-6f633b3c433c" name="Changes" comment="class03 datatable, examples">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/feature/login2.feature" afterDir="false" />
+    <list default="true" id="5ba2455c-4f17-427f-9695-6f633b3c433c" name="Changes" comment="class04">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Runners/FailedRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notes" beforeDir="false" afterPath="$PROJECT_DIR$/notes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Runners/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runners/Smoke.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Runners/Smoke.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runners/Smoke.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/steps/LoginInputSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/LoginInputSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/CommonMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/CommonMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/feature/login2.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/feature/login2.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/testdata/TestNGdata.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testdata/TestNGdata.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/config/config.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/feature/LoginInput.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/DashBoardPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/LoginPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/LoginInputSteps.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testdata/TestNGdata.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/CommonMethods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/ConfigReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/Constants.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/ExcelReading.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,6 +88,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FailedRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HRMS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Runners" />
+      <option name="MAIN_CLASS_NAME" value="Runners.FailedRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Smoke" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HRMS" />
       <extension name="coverage">
@@ -121,6 +121,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Smoke" />
+        <item itemvalue="JUnit.FailedRunner" />
         <item itemvalue="Cucumber Java.Scenario: login input using excel" />
         <item itemvalue="Cucumber Java.Feature: LoginInput" />
       </list>
@@ -156,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1717776180293</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="class04">
+      <created>1718031024037</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1718031024037</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -174,6 +182,7 @@
     <MESSAGE value="class01" />
     <MESSAGE value="class02 Test Runner" />
     <MESSAGE value="class03 datatable, examples" />
-    <option name="LAST_COMMIT_MESSAGE" value="class03 datatable, examples" />
+    <MESSAGE value="class04" />
+    <option name="LAST_COMMIT_MESSAGE" value="class04" />
   </component>
 </project>
