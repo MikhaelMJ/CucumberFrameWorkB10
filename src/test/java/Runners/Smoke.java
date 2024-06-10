@@ -17,12 +17,15 @@ import steps.LoginInputSteps;
 
         //позволяет легко читать вывод на консоле, удалит все не читаемые символы
         monochrome = true,
-        tags = "@examples"
+        tags = "@excel",
+        plugin = {"pretty","html:target/cucumber.html", "json:target/cucumber.json"}//для создания отчетав
+
+        // pretty - вывод шагов в консоле
 
 
 )
 
 
-public class TestRunner {
+public class Smoke {
 
 }

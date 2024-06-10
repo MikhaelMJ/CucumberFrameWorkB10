@@ -15,6 +15,9 @@ public class LoginPage extends CommonMethods {
     @FindBy(xpath = "//span[text()='Войти']")
     public WebElement loginBtn;
 
+    @FindBy(xpath = "//*[@role='alert']//span[@role]")
+    public WebElement errorMessage;
+
     public LoginPage(){
         PageFactory.initElements(driver,this);
     }

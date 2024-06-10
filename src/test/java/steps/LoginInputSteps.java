@@ -1,8 +1,10 @@
 package steps;
 
+import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.apache.poi.ss.formula.ptg.MemAreaPtg;
 import org.junit.Assert;
 import pages.DashBoardPage;
 import pages.LoginPage;
@@ -47,8 +49,7 @@ public class LoginInputSteps extends CommonMethods {
         DashBoardPage dashBoardPage = new DashBoardPage();
         Assert.assertTrue(dashBoardPage.inputCod.isDisplayed());
         tearDown();
-        }
-
+    }
 
 
     @When("user enters invalid email")
@@ -68,6 +69,40 @@ public class LoginInputSteps extends CommonMethods {
     public void user_enters(String email) {
         LoginPage loginPage = new LoginPage();
 
-            sendText(loginPage.usernameBox, email);
+        sendText(loginPage.usernameBox, email);
+    }
+
+    @When("user enters invalid email and click on input button and verify the error")
+    public void user_enters_invalid_email_and_click_on_input_button_and_verify_the_error(DataTable errorValidation) throws InterruptedException {
+        List<Map<String, String>> errorData = errorValidation.asMaps();
+        for (Map<String, String> validation : errorData) {
+            String loginName = validation.get("login");
+            String errorMessageValue = validation.get("errorMessage");
+
+            LoginPage loginPage = new LoginPage();
+            sendText(loginPage.usernameBox, loginName);
+            click(loginPage.loginBtn);
+
+            String errorMessageActual = loginPage.errorMessage.getText();
+            Assert.assertEquals("Значения не совпадают", errorMessageValue, errorMessageActual);
+            driver.navigate().back();
+            Thread.sleep(2000);
         }
     }
+
+
+    @When("user enters email from excel file usin {string}")
+    public void user_enters_email_from_excel_file_usin(String sheetName) {
+        List<Map<String, String>> newLogin = ExcelReading.excelIntoListMap(Constants.TESTDATA_FILEPATH, sheetName);
+
+        LoginPage loginPage = new LoginPage();
+        Iterator<Map<String, String>> it = newLogin.iterator();
+        while (it.hasNext()) {
+            Map<String, String> mapNewLogin = it.next();
+            sendText(loginPage.usernameBox, mapNewLogin.get("username"));
+            click(loginPage.loginBtn);
+        }
+
+    }
+
+}
