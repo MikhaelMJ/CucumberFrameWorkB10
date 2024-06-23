@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ba2455c-4f17-427f-9695-6f633b3c433c" name="Changes" comment="class05 API Rest Assured">
-      <change afterPath="$PROJECT_DIR$/src/test/java/API/API" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/APISteps/APIWorkFlowSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/APISteps/GenerateTokenSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Runners/APIRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/APIConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/APIPayloadConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/feature/APIWorkFlow.feature" afterDir="false" />
+    <list default="true" id="5ba2455c-4f17-427f-9695-6f633b3c433c" name="Changes" comment="class 07 API Rest Assured интеграция с кукумбер">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/API/HardCodedExamplesOfApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/API/HardCodedExamplesOfApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/APISteps/APIWorkFlowSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/APISteps/APIWorkFlowSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/APIPayloadConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/APIPayloadConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/feature/APIWorkFlow.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/feature/APIWorkFlow.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1719044841379</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="class 07 API Rest Assured интеграция с кукумбер">
+      <created>1719125564230</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1719125564231</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -216,6 +218,7 @@
     <MESSAGE value="class04" />
     <MESSAGE value="class05 FailedRunner" />
     <MESSAGE value="class05 API Rest Assured" />
-    <option name="LAST_COMMIT_MESSAGE" value="class05 API Rest Assured" />
+    <MESSAGE value="class 07 API Rest Assured интеграция с кукумбер" />
+    <option name="LAST_COMMIT_MESSAGE" value="class 07 API Rest Assured интеграция с кукумбер" />
   </component>
 </project>
