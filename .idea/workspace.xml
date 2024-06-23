@@ -4,9 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ba2455c-4f17-427f-9695-6f633b3c433c" name="Changes" comment="class05 FailedRunner">
-      <change afterPath="$PROJECT_DIR$/src/test/java/API/HardCodedExamplesOfApi.java" afterDir="false" />
+    <list default="true" id="5ba2455c-4f17-427f-9695-6f633b3c433c" name="Changes" comment="class05 API Rest Assured">
+      <change afterPath="$PROJECT_DIR$/src/test/java/API/API" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/APISteps/APIWorkFlowSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/APISteps/GenerateTokenSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Runners/APIRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/APIConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/APIPayloadConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/feature/APIWorkFlow.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/API/HardCodedExamplesOfApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/API/HardCodedExamplesOfApi.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,8 +51,28 @@
       <recent name="C:\Users\Михаил\HRMS\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.HardCodedExamplesOfApi.createEmployee">
-    <configuration name="FailedRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.APIRunner">
+    <configuration name="Scenario: Creating an employee" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/feature/APIWorkFlow.feature" />
+      <option name="GLUE" value="APISteps steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="HRMS" />
+      <option name="NAME_FILTER" value="^Creating an employee$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Creating an employee$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Creating an employee" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="APIRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HRMS" />
       <extension name="coverage">
         <pattern>
@@ -54,13 +81,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Runners" />
-      <option name="MAIN_CLASS_NAME" value="Runners.FailedRunner" />
+      <option name="MAIN_CLASS_NAME" value="Runners.APIRunner" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HardCodedExamplesOfApi.createEmployee" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HardCodedExamplesOfApi" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HRMS" />
       <extension name="coverage">
         <pattern>
@@ -70,13 +97,12 @@
       </extension>
       <option name="PACKAGE_NAME" value="API" />
       <option name="MAIN_CLASS_NAME" value="API.HardCodedExamplesOfApi" />
-      <option name="METHOD_NAME" value="createEmployee" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HardCodedExamplesOfApi.createUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HardCodedExamplesOfApi.a_jwt_is_generated" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HRMS" />
       <extension name="coverage">
         <pattern>
@@ -86,13 +112,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="API" />
       <option name="MAIN_CLASS_NAME" value="API.HardCodedExamplesOfApi" />
-      <option name="METHOD_NAME" value="createUser" />
+      <option name="METHOD_NAME" value="a_jwt_is_generated" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HardCodedExamplesOfApi.getDetailsOfOneEmployee" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HardCodedExamplesOfpi" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HRMS" />
       <extension name="coverage">
         <pattern>
@@ -101,23 +127,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="API" />
-      <option name="MAIN_CLASS_NAME" value="API.HardCodedExamplesOfApi" />
-      <option name="METHOD_NAME" value="getDetailsOfOneEmployee" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Smoke" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HRMS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Runners.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Runners" />
-      <option name="MAIN_CLASS_NAME" value="Runners.Smoke" />
+      <option name="MAIN_CLASS_NAME" value="API.HardCodedExamplesOfpi" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -125,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HardCodedExamplesOfApi.createEmployee" />
-        <item itemvalue="JUnit.HardCodedExamplesOfApi.createUser" />
-        <item itemvalue="JUnit.HardCodedExamplesOfApi.getDetailsOfOneEmployee" />
-        <item itemvalue="JUnit.Smoke" />
-        <item itemvalue="JUnit.FailedRunner" />
+        <item itemvalue="JUnit.APIRunner" />
+        <item itemvalue="JUnit.HardCodedExamplesOfApi.a_jwt_is_generated" />
+        <item itemvalue="Cucumber Java.Scenario: Creating an employee" />
+        <item itemvalue="JUnit.HardCodedExamplesOfApi" />
+        <item itemvalue="JUnit.HardCodedExamplesOfpi" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1718039710357</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="class05 API Rest Assured">
+      <created>1719044841379</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1719044841379</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -198,6 +215,7 @@
     <MESSAGE value="class03 datatable, examples" />
     <MESSAGE value="class04" />
     <MESSAGE value="class05 FailedRunner" />
-    <option name="LAST_COMMIT_MESSAGE" value="class05 FailedRunner" />
+    <MESSAGE value="class05 API Rest Assured" />
+    <option name="LAST_COMMIT_MESSAGE" value="class05 API Rest Assured" />
   </component>
 </project>

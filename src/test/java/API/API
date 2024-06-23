@@ -1,0 +1,19 @@
+Class 06
+Rest Assured - библиотека джава для тестирования АПИ
+Соответствует подходу БДД
+Given - подготовить запрос
+When - отправить запрос, указание конечной точки
+Then - результат подтверждение ответа
+
+используем @Test из junit
+
+BaseURI = BaseURL
+
+RequestSpecification - сохраняем запрос
+Response - сохраняем ответ
+ given- body, header,
+
+ class 07
+
+
+
