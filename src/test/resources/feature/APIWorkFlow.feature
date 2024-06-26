@@ -21,3 +21,8 @@ Feature: Syntax HRM API workflow
     And the retrieved data at "employee" object matches the data used to create an employee with employee id "employee.employee_id"
     |emp_firstname|emp_middle_name|emp_lastname|emp_birthday|emp_gender|emp_job_title|emp_status|
     |mish34       |Vale1234       |Dzhen1234   |1989-01-03  |Male      |API Tester   |Employee  |
+
+    @dynamic
+    Scenario: Create dynamic scenario
+      Given a request is prepared for creating an employee with dynamic data "Nina", "Dzhen", "Viktor", "F", "2020-12-12", "Employee", "API Tester"
+

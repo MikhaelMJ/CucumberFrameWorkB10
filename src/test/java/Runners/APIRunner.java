@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
 
         //позволяет легко читать вывод на консоле, удалит все не читаемые символы
         monochrome = true,
-        tags = "@APIWorkFlow",
+        tags = "@dynamic",
         plugin = {"pretty", "html:target/cucumber.html", "json:target/cucumber.json", "rerun:target/failed.txt"}//для создания отчетав
 
         // pretty - вывод шагов в консоле
