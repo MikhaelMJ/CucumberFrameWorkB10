@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ba2455c-4f17-427f-9695-6f633b3c433c" name="Changes" comment="class 07 API Rest Assured интеграция с кукумбер more">
+    <list default="true" id="5ba2455c-4f17-427f-9695-6f633b3c433c" name="Changes" comment="class 07 API Rest Assured интеграция с кукумбер more dynamic">
+      <change afterPath="$PROJECT_DIR$/src/test/java/database/JDBCDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/database/JDBCDemo2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/APISteps/APIWorkFlowSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/APISteps/APIWorkFlowSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Runners/APIRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runners/APIRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/feature/APIWorkFlow.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/feature/APIWorkFlow.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +47,20 @@
       <recent name="C:\Users\Михаил\HRMS\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.APIRunner">
+  <component name="RunManager" selected="Application.JDBCDemo">
+    <configuration name="JDBCDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="database.JDBCDemo" />
+      <module name="HRMS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="database.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scenario: Creating an employee" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/feature/APIWorkFlow.feature" />
@@ -113,28 +127,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HardCodedExamplesOfpi" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HRMS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="API.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="API" />
-      <option name="MAIN_CLASS_NAME" value="API.HardCodedExamplesOfpi" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JDBCDemo" />
         <item itemvalue="JUnit.APIRunner" />
         <item itemvalue="JUnit.HardCodedExamplesOfApi.a_jwt_is_generated" />
         <item itemvalue="Cucumber Java.Scenario: Creating an employee" />
         <item itemvalue="JUnit.HardCodedExamplesOfApi" />
-        <item itemvalue="JUnit.HardCodedExamplesOfpi" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1719133802646</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="class 07 API Rest Assured интеграция с кукумбер more dynamic">
+      <created>1719409265058</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1719409265058</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -227,6 +233,7 @@
     <MESSAGE value="class05 API Rest Assured" />
     <MESSAGE value="class 07 API Rest Assured интеграция с кукумбер" />
     <MESSAGE value="class 07 API Rest Assured интеграция с кукумбер more" />
-    <option name="LAST_COMMIT_MESSAGE" value="class 07 API Rest Assured интеграция с кукумбер more" />
+    <MESSAGE value="class 07 API Rest Assured интеграция с кукумбер more dynamic" />
+    <option name="LAST_COMMIT_MESSAGE" value="class 07 API Rest Assured интеграция с кукумбер more dynamic" />
   </component>
 </project>
