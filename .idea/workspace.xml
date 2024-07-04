@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ba2455c-4f17-427f-9695-6f633b3c433c" name="Changes" comment="class 07 API Rest Assured интеграция с кукумбер more dynamic">
-      <change afterPath="$PROJECT_DIR$/src/test/java/database/JDBCDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/database/JDBCDemo2.java" afterDir="false" />
+    <list default="true" id="5ba2455c-4f17-427f-9695-6f633b3c433c" name="Changes" comment="JDBC">
+      <change afterPath="$PROJECT_DIR$/src/test/java/database/Recap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/DBUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Runners/APIRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runners/APIRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/config/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config/config.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1719409265058</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="JDBC">
+      <created>1719938615054</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1719938615055</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -234,6 +240,7 @@
     <MESSAGE value="class 07 API Rest Assured интеграция с кукумбер" />
     <MESSAGE value="class 07 API Rest Assured интеграция с кукумбер more" />
     <MESSAGE value="class 07 API Rest Assured интеграция с кукумбер more dynamic" />
-    <option name="LAST_COMMIT_MESSAGE" value="class 07 API Rest Assured интеграция с кукумбер more dynamic" />
+    <MESSAGE value="JDBC" />
+    <option name="LAST_COMMIT_MESSAGE" value="JDBC" />
   </component>
 </project>
